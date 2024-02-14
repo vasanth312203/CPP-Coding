@@ -2,6 +2,7 @@
 BY Million Dollar Coder 
 
 ****************************************************************************
+<img scr="image1.jpg">
 # 1768. Merge Strings Alternately
 
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
@@ -32,4 +33,4 @@ while( j<word2.length()){
 };
 ```
 
-<img scr="https://www.google.com/url?sa=i&url=https%3A%2F%2Flo-victoria.com%2Fseries%2Fleetcode-challenge&psig=AOvVaw3jvzzfmFgnwp6g9aagJTid&ust=1707982289472000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIimhP2nqoQDFQAAAAAdAAAAABAY" alt="not fount" width=250>
+

@@ -2,9 +2,11 @@
 BY Million Dollar Coder 
 
 ****************************************************************************
-#LOGO
 
-<img src="image4.jpg" alt="Not Found ">
+
+<img src="image4.jpg" alt="Not Found " width="2500" height="500">
+
+<h1> Leet Code Problems </h1>
 
 # 1768. Merge Strings Alternately
 

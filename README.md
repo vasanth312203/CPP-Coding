@@ -4,7 +4,7 @@ BY Million Dollar Coder
 ****************************************************************************
 
 
-<img src="image4.jpg" alt="Not Found " width="2500" height="500">
+<img src="image4.jpg" alt="Not Found " >
 
 <h1> Leet Code Problems </h1>
 
@@ -14,6 +14,7 @@ You are given two strings word1 and word2. Merge the strings by adding letters i
 
 Return the merged string.
 # ANSWER :
+
 ```
 class Solution {
 public:
@@ -37,5 +38,7 @@ while( j<word2.length()){
  }
 };
 ```
+
+<img src="image.jpg" alt="Not Found " >
 
 

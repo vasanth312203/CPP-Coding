@@ -57,6 +57,9 @@ Return a boolean array result of length n, where result[i] is true if, after giv
 
 Note that multiple kids can have the greatest number of candies.
 
+<img src="image5.jpg" alt="Not Found " >
+
+
 # ANSWER :
 
 ```

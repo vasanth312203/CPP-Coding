@@ -293,6 +293,32 @@ Write a C++ Program to Check Whether a Number is a Positive or Negative Number
 # ANSWER :
 
 ```
+#include<iostream>
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+
+
+double num;
+cout<<"Enter the Number : \t"<<endl;
+cin>>num;
+
+if(num < 0){
+cout<<"Negative Number\n"<<endl;
+}
+else if ( num  > 0){
+cout<< " Positive Number \n "<<endl;
+}
+else{
+cout<< "  Number is zero \n "<<endl;
+}
+
+
+
+return 0;
+}
 
 
 
@@ -302,17 +328,21 @@ Write a C++ Program to Check Whether a Number is a Positive or Negative Number
 `
 Test Case 1: `
 `
-Input: 2021 
-Expected Output: 21st century
+Input: -0.5
+Expected Output: Negative
 `
 -----------------------------------------
 `Test Case 2:`
-`Input: 076
-Expected Output: 1st century`
+`
+Input: 1000000
+Expected Output: Positive
+`
 ----------------------------------------
 `Test Case 3:`
-`Input: -2000
-Expected Output: Negative century`
+`
+Input: 0.00001
+Expected Output: Positive
+`
 ----------------------------------------
 
 

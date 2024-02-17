@@ -223,4 +223,98 @@ public:
 <img src="image.jpg" alt="Not Found " >
 
 *************************************************************
+# 1 ,  Program to find century for a year in C++
+
+# QUESTION :
+
+Given a year the task is that we will find the century in the given year. The first century starts from 1 to 100 and the second-century start from 101 to 200 and so on.
+ 
+
+# ANSWER :
+
+```
+
+#include<iostream>
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+
+    int year;
+    cout << "Enter the Year :" << endl;
+    cin >> year;
+
+    if(year<0) {
+        cout << "Negative Century " << endl;
+    }
+    else if(year < 100) {
+        cout << " Century : " << 1 << endl;
+    }
+    else if(year % 100 == 0) {
+        cout << " Century :" <<year/100  << endl;
+    }
+    else {
+        cout << " Century : " << year / 100 + 1 << endl;
+    }
+
+    return 0;
+}
+
+```
+
+# Sample Test Cases :
+`
+Test Case 1: `
+`
+Input: 2021 
+Expected Output: 21st century
+`
+-----------------------------------------
+`Test Case 2:`
+`Input: 076
+Expected Output: 1st century`
+----------------------------------------
+`Test Case 3:`
+`Input: -2000
+Expected Output: Negative century`
+----------------------------------------
+
+
+*************************************************************
+
+# 2 , +ve  OR -ve Number in C++
+
+# QUESTION :
+
+Write a C++ Program to Check Whether a Number is a Positive or Negative Number
+ 
+
+# ANSWER :
+
+```
+
+
+
+```
+
+# Sample Test Cases :
+`
+Test Case 1: `
+`
+Input: 2021 
+Expected Output: 21st century
+`
+-----------------------------------------
+`Test Case 2:`
+`Input: 076
+Expected Output: 1st century`
+----------------------------------------
+`Test Case 3:`
+`Input: -2000
+Expected Output: Negative century`
+----------------------------------------
+
+
+*************************************************************
 
